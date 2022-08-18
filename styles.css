@@ -1,0 +1,183 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+body {
+	background-color: #1E5128;
+	font-family: "Courier New", monospace;/*
+	background: linear-gradient(#191A19, #4E9F3D);
+	background-repeat: no;*/
+	background-image: url("https://get.pxhere.com/photo/computer-work-screen-working-technology-number-internet-pattern-line-coding-website-html-developer-monitor-close-up-programming-javascript-font-source-code-programmer-design-display-text-conceptual-graphic-software-development-code-program-screenshot-data-script-hacker-hacking-computing-language-web-design-web-developer-syntax-highlighting-911144.jpg");
+	background-repeat: none;
+}
+header {
+	background-color: #191A19;
+	width: 100%;
+	top: 0;
+	display: inline-block;
+}
+h1 {
+	
+}
+.name {
+	text-align: right;
+	color: #4E9F3D;
+	background-color: #191A19;
+	margin: 10px;
+	display: flex;
+	justify-content: right;
+}
+nav {
+	width: 100%;
+	height: 0px;
+	display: inline-block;
+	justify-content: right;
+}
+nav > ul {
+	display: inline-block;
+	background-color: #191A19;
+}
+nav > ul > li {
+	display: inline-block;
+	padding: 10px 30px 0;
+	background-color: #191A19;
+}
+a {
+	background-color: #191A19;
+	color: #4E9F3D;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+a:hover {
+	color: #22277A;
+}
+.hello:first-of-type {
+	margin-top: 13rem;
+}
+.hello {
+	text-align: center;
+	font-size: 5rem;
+	
+	/*background-color: #191A19;*/
+}
+.more-hello {
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 2rem;
+}
+mark {
+	background-color: #191A19;
+	color: #4E9F3D;
+}
+.desc {
+	padding: 0 0 0 30px;
+	font-size: 2rem;
+}
+section {
+	background-color: #191A19;
+	padding: 1rem 2rem 1rem 2rem;
+	color: #4E9F3D;
+}
+#info {
+	margin-top: 13rem;
+	display: inline-block;
+}
+#inf-des {
+	margin-left: 3rem;
+}
+#inf-des-tit {
+	margin-top: 1rem;
+	margin-left: 3rem;
+}
+#imageofme {
+	max-width: 300px;
+	width: 100%;
+	float: right;
+}
+#lang-prog {
+	margin-left: 3rem;
+}
+/*#experience {
+	
+}*/
+.edu-tit {
+	margin: 1rem 1rem 1rem 3rem;
+	font-size: 1.3rem;
+}
+.edu-dat {
+	margin-left: 4rem;
+}
+.exp-blo-tit, .exp-blo-dat, .exp-blo-lis {
+	margin-left: 3rem;
+}
+.linkle {
+	margin-left: 3rem;
+}
+#emailtime {
+	margin-left: 3rem;
+}
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--animate {
+  transition: opacity 1s ease-in-out;
+}
+.fade-in {
+  animation: fadeIn ease 1s;
+  
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
